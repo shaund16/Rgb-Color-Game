@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>RGB Color Game</title>
 </head>
+
 <body>
   <h1> The
     <br>
@@ -17,9 +19,11 @@
   <div id="stripe">
     <button id="reset">New Colors</button>
     <span id="message"></span>
-    <button class="mode">Easy</button>
-    <button class="mode selected">Hard</button>
-    <button class="mode">Very Hard</button>
+    <div id="difficulties">
+      <button class="mode">Easy</button>
+      <button class="mode selected">Hard</button>
+      <button class="mode">Very Hard</button>
+    </div>
   </div>
 
   <div id=container>
@@ -33,4 +37,5 @@
 
   <script src="main.js"></script>
 </body>
+
 </html>
